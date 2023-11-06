@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+.board-row button {
+  font-size: 20px;
+  font-weight: 500;
+  /* padding: 10px 20px; */
+  border: 0;
+  margin: 3px;
+  box-shadow: 1px 1px 1px  gray;
+  cursor: pointer;
+  height: 50px;
+  width: 60px;
+}
+.board-row button:focus {
+  box-shadow: inset 1px 1px 1px gray;
+}
+.container {
+  border: 1px solid lightgray;
+  padding: 30px;
+  box-shadow: 1px 1px 1px lightgray;
+}
